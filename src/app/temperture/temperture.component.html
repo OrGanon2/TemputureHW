@@ -1,0 +1,11 @@
+<div style = 'dir:rt1'>
+    <label for="temp">
+        <input type="text" #temp (input) = "tempCalc(temp.value)"  placeholder="Whats your temperture?">
+    </label>
+
+    <span style="font-weight: 900;">
+        {{tempDesc}}
+        <img src="{{imageHut}}" alt="">
+    </span>
+
+</div>
